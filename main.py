@@ -1,5 +1,5 @@
 count = 0
-con = 102
+con = 1
 import discord
 url = "https://discord.com/api/webhooks/828710265586843659/C-kp8q_DVXjJ-3-YOAHr3EykOcpqVeqyME_8uycQrTPLHQQ0zfWF0Tsm0WUR--2XcFl4"
 import time
