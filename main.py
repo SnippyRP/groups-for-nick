@@ -1,7 +1,5 @@
 count = 0
 con = 1
-import discord
-url = "https://discord.com/api/webhooks/828710265586843659/C-kp8q_DVXjJ-3-YOAHr3EykOcpqVeqyME_8uycQrTPLHQQ0zfWF0Tsm0WUR--2XcFl4"
 import time
 import os
 import pythonroblox
@@ -20,7 +18,6 @@ while count < 2:
         groupown = result.owner_name
         args = "[member_count:", groupmem, ", group_name:", groupname, ", group_id:", groupid, ", group_owner:", groupown, "]"
         print(args)
-        r = requests.post(url, data={"content": args})
     except Exception as ex:
         template = "An exception of type {0} occurred. Arguments:\n{1!r}"
         message = template.format(type(ex).__name__, ex.args)
